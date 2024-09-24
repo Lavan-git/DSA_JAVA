@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "merge_sort",
+            "request": "launch",
+            "mainClass": "merge_sort",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Toggle",
+            "request": "launch",
+            "mainClass": "Toggle",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "AliceAppleTree",
+            "request": "launch",
+            "mainClass": "AliceAppleTree",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Simple_Sieve",
+            "request": "launch",
+            "mainClass": "Simple_Sieve",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeVectors",
+            "request": "launch",
+            "mainClass": "CodeVectors",
+            "projectName": "DSA_ff4cdfb5"
+        }
+    ]
+}
