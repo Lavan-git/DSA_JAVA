@@ -11,6 +11,6 @@ public class Recursion_Tiling_Problem {
         return fnm1+fnm2;
     }
     public static void main(String[] args) {
-        System.out.println(TP(4));
+        System.out.println(TP(2));
     }
 }

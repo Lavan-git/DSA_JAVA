@@ -10,7 +10,7 @@ public class Tower_Of_Hanoi {
         TOH(n-1,h,src,destination);
     }    
     public static void main(String args[]){
-        int n=3;
+        int n=10;
         TOH(n,"A","C","B");
     }
 }

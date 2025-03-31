@@ -50,7 +50,7 @@ public class Backtracking_NQ_countways {
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 board[i][j]='X';
-            }            
+            }           
         }
         NQueens(board, 0);
         System.out.println("The number of ways to solve N queens is : "+count);

@@ -6,6 +6,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedList_Practice2",
+            "request": "launch",
+            "mainClass": "LinkedList_Practice2",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Beautiful_ArrayList",
+            "request": "launch",
+            "mainClass": "Beautiful_ArrayList",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList_Most_frequent_number_following_key",
+            "request": "launch",
+            "mainClass": "ArrayList_Most_frequent_number_following_key",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "practice12",
+            "request": "launch",
+            "mainClass": "practice12",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "practice121",
+            "request": "launch",
+            "mainClass": "practice121",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "TreeView",
+            "request": "launch",
+            "mainClass": "TreeView",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "StsPractice",
+            "request": "launch",
+            "mainClass": "StsPractice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "sts_practice",
+            "request": "launch",
+            "mainClass": "sts_practice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "some_practice",
+            "request": "launch",
+            "mainClass": "some_practice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "backtracking_practice",
+            "request": "launch",
+            "mainClass": "backtracking_practice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Recursion_Tiling_Problem",
+            "request": "launch",
+            "mainClass": "Recursion_Tiling_Problem",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "practice2",
+            "request": "launch",
+            "mainClass": "practice2",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Tower_Of_Hanoi",
+            "request": "launch",
+            "mainClass": "Tower_Of_Hanoi",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Linked_list_practice",
+            "request": "launch",
+            "mainClass": "Linked_list_practice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_lonelynumbers",
+            "request": "launch",
+            "mainClass": "Arraylist_lonelynumbers",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_pairsum2_2pointer",
+            "request": "launch",
+            "mainClass": "Arraylist_pairsum2_2pointer",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_pairsum_2pointer",
+            "request": "launch",
+            "mainClass": "Arraylist_pairsum_2pointer",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_pairsum_bruteforce",
+            "request": "launch",
+            "mainClass": "Arraylist_pairsum_bruteforce",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_containterwithmostwater_2pointer",
+            "request": "launch",
+            "mainClass": "Arraylist_containterwithmostwater_2pointer",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_ContainerWithMostWaterBrute",
+            "request": "launch",
+            "mainClass": "Arraylist_ContainerWithMostWaterBrute",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListPractice",
+            "request": "launch",
+            "mainClass": "ArrayListPractice",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_reverse",
+            "request": "launch",
+            "mainClass": "Arraylist_reverse",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
             "name": "merge_sort",
             "request": "launch",
             "mainClass": "merge_sort",

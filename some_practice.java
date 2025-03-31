@@ -1,41 +1,39 @@
-public class Backtracking_sudoku {
-    public static boolean isSafe(int sudoku[][],int row,int col,int num){
-        //check for row
+public class some_practice {
+    public static boolean isSafe(int sudoku[][],int row,int col,int key){
         for(int i=0;i<9;i++){
-            if(sudoku[i][col]==num){
+            if(sudoku[row][i]==key){
+                return false;
+            }
+            if(sudoku[i][col]==key){
                 return false;
             }
         }
-
-        
-        //check for column
-        for(int j=0;j<9;j++){
-            if(sudoku[row][j]==num){
-                return false;
-            }
-        }
-
-        //check for grid
-        int sr=(row/3)*3;
-        int sc=(col/3)*3;
-        for(int i=sr;i<sr+3;i++){
-            for(int j=sc;j<sc+3;j++){
-                if(sudoku[i][j]==num){
+        for(int i=(row/3)*3;i<(row/3)*3+3;i++){
+            for(int j=(col/3)*3;j<(col/3)*3+3;j++){
+                if(sudoku[i][j]==key){
                     return false;
                 }
             }
         }
         return true;
     }
-
+    public static void print(int sudoku[][]){
+        for(int i=0;i<=8;i++){
+            for(int j=0;j<=8;j++){
+                System.out.print(sudoku[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
     public static boolean sudoku_solver(int sudoku[][],int row,int col){
-        if(row==9){            
+        if(row==9){
             return true;
         }
-        int nextRow=row;int nextCol=col+1;
+        int nextRow=row;
+        int nextCol=col+1;
         if(col+1==9){
-            nextRow+=1;
             nextCol=0;
+            nextRow=row+1;
         }
         if(sudoku[row][col]!=0){
             return sudoku_solver(sudoku, nextRow, nextCol);
@@ -47,18 +45,8 @@ public class Backtracking_sudoku {
                     return true;
                 }
                 sudoku[row][col]=0;
-
-            }
-        }
+        }}
         return false;
-    }
-    public static void print(int sudoku[][]){
-        for(int i=0;i<sudoku.length;i++){
-            for(int j=0;j<sudoku[0].length;j++){
-                System.out.print(sudoku[i][j]+" ");
-            }
-            System.out.println();
-        }
     }
     public static void main(String[] args) {
         int sudoku[][]={{0,0,8,0,0,0,0,0,0},
