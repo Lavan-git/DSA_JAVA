@@ -6,6 +6,153 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Trie_1",
+            "request": "launch",
+            "mainClass": "Trie_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "sort_array_by_increasing_frequency",
+            "request": "launch",
+            "mainClass": "sort_array_by_increasing_frequency",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Subarray_sum_equal_to_k",
+            "request": "launch",
+            "mainClass": "Subarray_sum_equal_to_k",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Largest_subarray_with_0_sum",
+            "request": "launch",
+            "mainClass": "Largest_subarray_with_0_sum",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "find_itenary_from_tickets",
+            "request": "launch",
+            "mainClass": "find_itenary_from_tickets",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "union_and_intersection_of_2_arrays",
+            "request": "launch",
+            "mainClass": "union_and_intersection_of_2_arrays",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "count_distinct_elements",
+            "request": "launch",
+            "mainClass": "count_distinct_elements",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "valid_anagram",
+            "request": "launch",
+            "mainClass": "valid_anagram",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Majority_elements",
+            "request": "launch",
+            "mainClass": "Majority_elements",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "HashMapTemplate",
+            "request": "launch",
+            "mainClass": "HashMapTemplate",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "heapsort_2",
+            "request": "launch",
+            "mainClass": "heapsort_2",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "heap_practice1",
+            "request": "launch",
+            "mainClass": "heap_practice1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Sliding_windows_max_2",
+            "request": "launch",
+            "mainClass": "Sliding_windows_max_2",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "sliding_window_max_1",
+            "request": "launch",
+            "mainClass": "sliding_window_max_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Weakest_soldier",
+            "request": "launch",
+            "mainClass": "Weakest_soldier",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "nearby_cars",
+            "request": "launch",
+            "mainClass": "nearby_cars",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "test221",
+            "request": "launch",
+            "mainClass": "test221",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "heap_sort",
+            "request": "launch",
+            "mainClass": "heap_sort",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "heap_1",
+            "request": "launch",
+            "mainClass": "heap_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueue_1",
+            "request": "launch",
+            "mainClass": "PriorityQueue_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "BST_1",
+            "request": "launch",
+            "mainClass": "BST_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
             "name": "BinaryTrees_practice",
             "request": "launch",
             "mainClass": "BinaryTrees_practice",
