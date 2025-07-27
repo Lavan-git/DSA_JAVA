@@ -6,6 +6,237 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Leetcode_8",
+            "request": "launch",
+            "mainClass": "Leetcode_8",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode_205",
+            "request": "launch",
+            "mainClass": "Leetcode_205",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "wildcard_matching",
+            "request": "launch",
+            "mainClass": "wildcard_matching",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "String_conversion_dp",
+            "request": "launch",
+            "mainClass": "String_conversion_dp",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Edit_distance",
+            "request": "launch",
+            "mainClass": "Edit_distance",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Longest_Increasing_subsequence",
+            "request": "launch",
+            "mainClass": "Longest_Increasing_subsequence",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Longest_Common_Substring",
+            "request": "launch",
+            "mainClass": "Longest_Common_Substring",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "LCS",
+            "request": "launch",
+            "mainClass": "LCS",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "unbounded_knapsack",
+            "request": "launch",
+            "mainClass": "unbounded_knapsack",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "target_sum_subset",
+            "request": "launch",
+            "mainClass": "target_sum_subset",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "zero_one_knapsack",
+            "request": "launch",
+            "mainClass": "zero_one_knapsack",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "climbing_stairs",
+            "request": "launch",
+            "mainClass": "climbing_stairs",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "floor_ceil_sorted_array",
+            "request": "launch",
+            "mainClass": "floor_ceil_sorted_array",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "count_inversions",
+            "request": "launch",
+            "mainClass": "count_inversions",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Merge_intervals",
+            "request": "launch",
+            "mainClass": "Merge_intervals",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "subarrays_with_given_xor",
+            "request": "launch",
+            "mainClass": "subarrays_with_given_xor",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "_4sum",
+            "request": "launch",
+            "mainClass": "_4sum",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "_3Sum",
+            "request": "launch",
+            "mainClass": "_3Sum",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Pascals_triangle",
+            "request": "launch",
+            "mainClass": "Pascals_triangle",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Longest_Consecuitve_sequence",
+            "request": "launch",
+            "mainClass": "Longest_Consecuitve_sequence",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "rearrange_array_elements_with_sign",
+            "request": "launch",
+            "mainClass": "rearrange_array_elements_with_sign",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "bfs_cycle_detection_undirected_graph",
+            "request": "launch",
+            "mainClass": "bfs_cycle_detection_undirected_graph",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Dijkstras_algorithm",
+            "request": "launch",
+            "mainClass": "Dijkstras_algorithm",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "all_paths_from_source_to_target",
+            "request": "launch",
+            "mainClass": "all_paths_from_source_to_target",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Kahns_algorithm",
+            "request": "launch",
+            "mainClass": "Kahns_algorithm",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Topological_sorting",
+            "request": "launch",
+            "mainClass": "Topological_sorting",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "cycle_detection_directed_graph",
+            "request": "launch",
+            "mainClass": "cycle_detection_directed_graph",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "bipartite_graph",
+            "request": "launch",
+            "mainClass": "bipartite_graph",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "cycle_detection_undirected_graph",
+            "request": "launch",
+            "mainClass": "cycle_detection_undirected_graph",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "BFS",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Graphs_1",
+            "request": "launch",
+            "mainClass": "Graphs_1",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Group_Anagrams",
+            "request": "launch",
+            "mainClass": "Group_Anagrams",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
+            "name": "Trie_prefix_problem",
+            "request": "launch",
+            "mainClass": "Trie_prefix_problem",
+            "projectName": "DSA_ff4cdfb5"
+        },
+        {
+            "type": "java",
             "name": "Trie_1",
             "request": "launch",
             "mainClass": "Trie_1",

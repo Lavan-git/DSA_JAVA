@@ -42,18 +42,69 @@ public class Trie_1 {
         }
         return false;
     }
+    public static int countNodes(Node root){
+        if(root==null){
+            return 0;
+        }
+        int count=0;
+        for(int i=0;i<26;i++){
+            if(root.children[i]!=null){
+                count+=countNodes(root.children[i]);
+            }
+        }
+        return count+1;
+    }
+    public static String ans="";
+    public static void longest_word_with_all_prefixes(Node root, StringBuilder temp){
+        for(int i=0;i<26;i++){
+            if(root.children[i]!=null && root.children[i].EOW==true){
+                char ch=(char)(i+'a');
+                temp.append(ch);
+                if(temp.length()>ans.length()){
+                    ans=temp.toString();
+                }
+                longest_word_with_all_prefixes(root.children[i], temp);
+                temp.deleteCharAt(temp.length()-1);
+            }            
+        }
+    }
     public static void main(String[] args) {
         // String words[]={"the","a","there","their","any","thee"};
         // for(int i=0;i<words.length;i++){
         //     insert(words[i]);
         // }
         // System.out.println(search("th"));
-        String arr[]={"i","like","samsung","sam","mobile","ice"};
-        for(int i=0;i<arr.length;i++){
-            insert(arr[i]);
+
+
+
+
+
+
+        // String arr[]={"i","like","samsung","sam","mobile","ice"};
+        // for(int i=0;i<arr.length;i++){
+        //     insert(arr[i]);
+        // }
+        // String key="ilikesamsung";
+        // System.out.println(wordBreak(key));
+
+
+
+
+
+        // String str="ababa";
+        // for(int i=0;i<str.length();i++){
+        //     insert(str.substring(i));
+        // }
+        // System.out.println(countNodes(root));
+
+
+
+        String words[]={"a","banana","app","appl","ap","apply","apple"};
+        for(int i=0;i<words.length;i++){
+            insert(words[i]);
         }
-        String key="ilikesamsung";
-        System.out.println(wordBreak(key));
+        longest_word_with_all_prefixes(root, new StringBuilder());
+        System.out.println(ans);
     }
 
 }
